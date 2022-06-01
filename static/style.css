@@ -1,0 +1,13 @@
+body{
+    background-color:black;
+    color:rgb(119, 0, 0);
+    font-family: 'Arial' , sans-serif;
+    text-align: center;
+    margin: 7%;
+    padding: 40px;
+    }
+    h2{
+        margin-top: 7%;
+        text-align: center;
+    }
+    

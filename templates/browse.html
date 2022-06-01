@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Browse entries</title>
+        <link rel="stylesheet" type="text/css" href="/static/style.css">
+    </head>
+<body>
+    <h2>Browse entries</h2>
+    {% if entries|length > 0 %}
+        
+        {% for entry in entries %}
+            {{ entry[2] }} ({{ entry[1] }})
+            <p>
+            {{ entry[3] }}
+        {% endfor %}
+        
+    {% else %}
+        This blog is empty.
+    {% endif %}
+
+</body>
+</html>
